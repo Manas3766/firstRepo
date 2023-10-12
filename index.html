@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Bar</title>
     <style>
+        body{
+            background-color: antiquewhite;
+        }
         .navbar{
             background-color: rgb(65, 117, 239);
         }
@@ -32,10 +35,41 @@
             padding: 4px;
             margin: 9px 5px;
         }
+        .left{
+            display: inline-block;
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .left img{
+            width: 250px; ;
+        }
+        .mid{
+            display: block;
+            position: absolute;
+
+            top: 150px;
+            left: 500px;
+            margin:  auto;
+            width: 33%;
+            height: 33%;
+            font-size: 24px;
+        }
+        .heading{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
     </style>
 </head>
 <body>
     <header>
+        <div class="left">
+            <img src="images.jpeg" alt="">
+        </div>
+        <div class="mid">
+            The tiger is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white underside. An apex predator, it primarily preys on ungulates, such as deer and wild boa Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur fugiat eius modi explicabo qui, delectus, minus temporibus aliquid corrupti soluta, quaerat vero error possimus reiciendis laudantium accusamus perferendis? Atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ab laborum architecto quo quisquam laudantium dolore alias nam distinctio totam nihil aperiam perferendis, commodi saepe vero! Esse facilis eaque id?
+        </div>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -48,6 +82,9 @@
             </ul>
 
         </nav>
+        <div class="heading">
+            <h2>Short Note on Tiger</h2>
+        </div>
     </header>
 </body>
 </html>
